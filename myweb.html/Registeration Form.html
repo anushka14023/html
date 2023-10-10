@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://127.0.0.1:5500/Anu/myweb.html/my.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration Form</title>
+<style>
+    .ask {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-left: 600px;
+        width: 100px;
+        display: inline-block;
+
+    }
+
+    .answer {
+
+        margin-left: 20px;
+        align-items: center;
+
+    }
+
+    .button1 {
+        margin-left: 700px;
+    }
+
+    button2 {
+        margin-left: 500px;
+    }
+
+    .header {
+        margin-left: 600px;
+    }
+    .pronouns{
+        margin-left: 100px;
+    }
+</style></head>
+
+
+<body>
+    <div class="header">
+        <img src="./Registeration Form_files/1f9d1-1f4bc.svg" width="50px/">
+        
+        <h1 style="color: rgb(185, 23, 23)">Employee Registeration Form</h1>
+        <div class="pronouns">
+            <input type="radio" id="html" name="fav_language" value="css">
+            <label for="html" class="rd">Mr.</label>
+            
+            <input type="radio" id="css" name="fav_language" value="css">
+            <label for="html">Mrs.</label>
+            
+            <input type="radio" id="javasript" name="fav_language" value="javasript">
+            <label for="javasript">Miss</label><br><br>
+        </div>
+    </div>
+
+    <form>
+        <label for="fname" class="ask"> First name:</label>
+        <input type="text" placeholder="First name" id="fname" class="answer" name="fname"><br><br>
+
+        <label for="lname" class="ask">Last name:</label>
+        <input type="text" placeholder="Last name " id="lname" class="answer" name="lname"><br><br>
+
+        <label for="femail" class="ask">Mail Address1:</label>
+        <input type="text" id="femail" class="answer" name="femail"><br><br>
+
+        <label for="city" class="ask">City</label>
+        <input type="text" id="city" class="answer" name="city"><br><br>
+
+        <label for="state" class="ask">State:</label>
+        <select name="" id="state" class="answer">
+            <option value="Gujarat">Gujrat</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Kerala">Kerala</option>
+        </select><br><br>
+
+        <label for="Zip" class="ask">Zip:</label>
+        <input type="number" class="answer" id="Zip" name="Zip"><br><br>
+
+        <label for="file" class="ask">Upload Photo</label>
+        <input type="file" class="answer" id="file" name="file"><br><br>
+
+        <label for="mail" class="ask">E-Mail:</label>
+        <input type="text" class="answer" id="mail" name="mail"><br><br>
+
+        <label for="mb" class="ask">Mobile</label>
+        <input type="number" placeholder="+91" class="answer" id="mb" name="mb"><br><br>
+
+        <label for="lang" class="ask">Language known:</label>
+
+        <select name="" id="lang" class="answer">
+            <option value="Gujarati">Gujrati</option>
+            <option value="Hindi">Hindi</option>
+            <option value="English">English</option>
+            <option value="Marathi">Marathi</option>
+
+        </select>
+        <br><br>
+        <label for="adi" class="ask">Additional Information:</label>
+        <input type="text" placeholder="Optional" class="answer" id="adi" name="adi"><br><br>
+        <input type="submit" class="button1">
+        <input type="reset" class="button2">
+
+
+        
+    </form>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>

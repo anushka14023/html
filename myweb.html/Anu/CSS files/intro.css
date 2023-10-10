@@ -1,0 +1,74 @@
+.header-container {
+    background-color: #1C788C;
+}
+
+.header {
+    display: flex;
+    padding-top: 50px;
+}
+
+.kids {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 70px;
+    margin-right: 40px;
+}
+
+.lead-my-3 {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.btn {
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+}
+
+.header-text-container {
+    margin-right: 40px;
+    text-align: right;
+}
+.row-featurette{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.data{
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.board-logo{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    
+}
+.butn{
+    width: 100px;
+    align-items: center;
+}
+.col{
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+    font-family: Karla;
+}
+.logo{
+    margin-top: 70px;
+}
+.footer-container{
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #1C788C;
+}
+.footer-logo{
+    height: 100px;
+    width: 100px;
+}
